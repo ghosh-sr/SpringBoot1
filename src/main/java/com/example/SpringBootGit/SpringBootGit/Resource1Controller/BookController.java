@@ -15,6 +15,12 @@ public class BookController {
 	public String about() {
 		return "This is about page";
 	}
+
+	@RequestMapping("/contact")
+	public String about() {
+		return "This is contact page";
+	}
+
 	
 	@RequestMapping("/books")
 	public String bookString() {
