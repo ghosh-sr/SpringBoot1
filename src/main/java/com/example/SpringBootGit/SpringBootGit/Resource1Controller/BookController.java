@@ -11,4 +11,9 @@ public class BookController {
 		return "This is home page";
 	}
 	
+	@RequestMapping("/books")
+	public String bookString() {
+		return "This is a list of books available hier";
+	}
+	
 }
