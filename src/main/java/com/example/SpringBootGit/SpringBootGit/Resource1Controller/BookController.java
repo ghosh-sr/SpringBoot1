@@ -10,6 +10,11 @@ public class BookController {
 	public String home() {
 		return "This is home page";
 	}
+
+	@RequestMapping("/about")
+	public String about() {
+		return "This is about page";
+	}
 	
 	@RequestMapping("/books")
 	public String bookString() {
